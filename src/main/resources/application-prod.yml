@@ -3,9 +3,9 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
-            url: jdbc:mysql://127.0.0.1:3306/linfengcommunity?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+            url: jdbc:mysql://127.0.0.1:3306/campus?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
             username: root
-            password: yourpassword
+            password: root
             initial-size: 10
             max-active: 100
             min-idle: 10
@@ -34,6 +34,6 @@ spring:
 
 logging:
   level:
-    io.linfeng: Info
+    com.pheotrix: Info
     org.springframework.web: Info
     io.swagger.*: ERROR

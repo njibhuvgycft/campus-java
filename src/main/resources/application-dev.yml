@@ -34,6 +34,6 @@ spring:
 
 logging:
   level:
-    io.linfeng: DEBUG
+    com.pheotrix: DEBUG
     org.springframework.web: DEBUG
     io.swagger.*: ERROR

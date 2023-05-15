@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="io.linfeng.modules.app.dao.CommentThumbsDao">
+<mapper namespace="com.pheotrix.modules.app.dao.CommentThumbsDao">
 
 	<!-- 可根据自己的需求，是否要使用 -->
-    <resultMap type="io.linfeng.modules.app.entity.CommentThumbsEntity" id="commentThumbsMap">
+    <resultMap type="com.pheotrix.modules.app.entity.CommentThumbsEntity" id="commentThumbsMap">
         <result property="id" column="id"/>
         <result property="cId" column="c_id"/>
         <result property="uid" column="uid"/>
