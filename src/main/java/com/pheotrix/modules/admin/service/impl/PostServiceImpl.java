@@ -138,8 +138,6 @@ public class PostServiceImpl extends ServiceImpl<PostDao, PostEntity> implements
         pc.setPostId(request.getId());
         pc.setUid(user.getUid());
         postCollectionService.save(pc);
-        //TODO 消息通知
-
     }
 
     @Override

@@ -217,7 +217,6 @@ public class AppUserServiceImpl extends ServiceImpl<AppUserDao, AppUserEntity> i
         followEntity.setFollowUid(request.getId());
         followEntity.setCreateTime(DateUtil.nowDateTime());
         followService.save(followEntity);
-        //TODO 消息通知
     }
 
     @Override

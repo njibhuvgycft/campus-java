@@ -75,7 +75,7 @@ task:
 
 pheotrix:
   redis:
-    open: false
+    open: true
   shiro:
     redis: false
   jwt:
